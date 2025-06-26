@@ -52,9 +52,9 @@ cd RL_project_final
 
 ### 2. Create and Activate a Virtual Environment (Optional but Recommended)
 ```
-python3 -m venv venv
-source venv/bin/activate      
-# On Windows: venv\Scripts\activate
+python3 -m venv rl_env
+source rl_env/bin/activate      
+# On Windows: rl_env\Scripts\activate
 ```
 ### 3. Install All Python Dependencies
 ```
@@ -89,7 +89,7 @@ RL_project_final/
 │   └── .gitkeep
 ├── wandb/                    # Weights & Biases logs (only contents ignored)
 │   └── .gitkeep
-├── venv/                   # your virtual environment with all the dependencies
+├── rl_env/                   # your python virtual environment with all the dependencies
 │  
 ├── webots_remote_env.py      # Webots socket communication handler
 ├── train_PPO.py              # PPO training script

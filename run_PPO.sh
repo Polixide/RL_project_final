@@ -7,6 +7,7 @@ sudo pkill -f webots-bin
 sudo pkill -f Xvfb
 sleep 2
 
+#Starting 10 webots instances
 for i in {0..9}
 do
   PORT=$((10000 + $i))
@@ -15,10 +16,10 @@ do
 done
 
 
-# Aspetta che tutte le istanze siano avviate
+# Wait until all the instances are ready
 sleep 30
 sudo lsof -i -P -n | grep LISTEN
 
-# Avvia lo script di training
+# Start the training file
 python3 train_PPO.py
 
