@@ -1,4 +1,8 @@
 checkpoint_dir/*
+!checkpoint_dir/.gitkeep
 wandb/*
+!wandb/.gitkeep
 rl_env/*
+!rl_env/.gitkeep
 tb_logs/*
+!tb_logs/.gitkeep
