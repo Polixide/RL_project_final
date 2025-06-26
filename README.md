@@ -172,6 +172,6 @@ You can set PORT manually in your environment or use the default (e.g., 10000).
 - Daniele Catalano (@Polixide) - Politecnico di Torino , Data Science & Engineering
 - Samuele Caruso (@Knightmare2002) - Politecnico di Torino , Data Science & Engineering
 
-- Francesco DalCero (@Dalceeee) - Politecnico di Torino , Data Science & Engineering
+- Francesco Dal Cero (@Dalceeee) - Politecnico di Torino , Data Science & Engineering
 
 - Ramadan Mehmetaj (@Danki02) - Politecnico di Torino , Data Science & Engineering
