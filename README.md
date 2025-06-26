@@ -60,6 +60,22 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+### 4. Install Webots 2025
+Go to the official Cyberbotics website: https://cyberbotics.com/#download ,
+or use the direct link:
+```
+wget https://github.com/cyberbotics/webots/releases/download/R2025a/webots-R2025a-x86-64.tar.bz2
+```
+Extract and install:
+```
+tar -xjf webots-R2025a-x86-64.tar.bz2
+sudo mv webots /opt/webots
+```
+You can now run Webots using:
+```
+webots
+```
+
 
 ## Folder Structure
 ```bash
